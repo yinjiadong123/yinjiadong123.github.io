@@ -15,10 +15,22 @@
       name: '',
       repo: '',
 	  loadNavbar: true,
-	  coverpage: true
+	  coverpage: true,
+	  search: 'auto', // default
+
+    search : [
+      '/',            // => /README.md
+      '/guide',       // => /guide.md
+      '/get-started', // => /get-started.md
+      '/zh-cn/',      // => /zh-cn/README.md
+    ],
+
+    // complete configuration parameters
+    
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
 </body>
 </html>
